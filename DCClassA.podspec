@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '这里是个长描述啊啊啊啊啊啊啊啊啊啊，我在测试哈哈哈哈哈'
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
   s.homepage         = 'https://github.com/zhangdc/DCClassA'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/*.{h,m}'
+  s.source_files = 'DCClassA/Classes/*'
   
   # s.resource_bundles = {
   #   'DCClassA' => ['DCClassA/Assets/*.png']
