@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AViewController.h"
 
 FOUNDATION_EXPORT double PublicDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char PublicDemoVersionString[];
