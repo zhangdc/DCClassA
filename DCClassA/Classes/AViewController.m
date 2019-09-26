@@ -1,18 +1,19 @@
 //
-//  ViewController.m
+//  AViewController.m
 //  componentA
 //
 //  Created by Mr.Zhang on 2019/9/26.
 //  Copyright © 2019 Mr.Zhang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AViewController.h"
 
-@interface ViewController ()
+@interface AViewController ()
+
 
 @end
 
-@implementation ViewController
+@implementation AViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,7 +22,9 @@
     self.view.backgroundColor = [UIColor redColor];
 }
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:true completion:nil];
+}
 
 
 @end

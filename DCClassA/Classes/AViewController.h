@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AViewController.h
 //  componentA
 //
 //  Created by Mr.Zhang on 2019/9/26.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AViewController : UIViewController
 
 @end
 
