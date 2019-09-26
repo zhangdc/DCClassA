@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DCClassA_Example' do
+  pod 'DCClassA', :path => '../'
+
+  target 'DCClassA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
