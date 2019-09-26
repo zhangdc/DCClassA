@@ -1,0 +1,16 @@
+PODS:
+  - DCClassA (0.1.0)
+
+DEPENDENCIES:
+  - DCClassA (from `../`)
+
+EXTERNAL SOURCES:
+  DCClassA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCClassA: 99a6121e1e4dd9d267dbd80b7ca4c01e8178b58d
+
+PODFILE CHECKSUM: 967e2584f04d0b54a930f9d3663b39e6be5eccaa
+
+COCOAPODS: 1.5.3

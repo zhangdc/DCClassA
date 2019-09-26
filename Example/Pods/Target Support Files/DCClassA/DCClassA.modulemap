@@ -1,0 +1,6 @@
+framework module DCClassA {
+  umbrella header "DCClassA-umbrella.h"
+
+  export *
+  module * { export * }
+}
