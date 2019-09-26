@@ -1,8 +1,8 @@
 {
   "name": "DCClassA",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of DCClassA.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "这里是个长描述啊啊啊啊啊啊啊啊啊啊，我在测试哈哈哈哈哈",
   "homepage": "https://github.com/zhangdc/DCClassA",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhangdc/DCClassA.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

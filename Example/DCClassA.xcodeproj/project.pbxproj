@@ -300,21 +300,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DCClassA_Example/Pods-DCClassA_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DCClassA_Example/Pods-DCClassA_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DCClassA/DCClassA.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCClassA.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCClassA_Example/Pods-DCClassA_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DCClassA_Example/Pods-DCClassA_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C44457959A69CFB7EFF9470 /* [CP] Check Pods Manifest.lock */ = {

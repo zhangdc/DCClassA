@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AViewController.h"
 
 FOUNDATION_EXPORT double DCClassAVersionNumber;
 FOUNDATION_EXPORT const unsigned char DCClassAVersionString[];
