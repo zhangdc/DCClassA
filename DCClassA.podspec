@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCClassA'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '张DC的组件化Demo'
 
 # This description is used to generate tags and improve search results.
