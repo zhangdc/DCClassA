@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3FD0A64A0EF052D74F7B26D815C4C10C /* Pods-DCClassA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC932B78575CCFBA9F37F9B668A05B9 /* Pods-DCClassA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		529A68C4233D16ED00C03C22 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529A68C1233D16ED00C03C22 /* AViewController.m */; };
-		529A68C5233D16ED00C03C22 /* AViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 529A68C2233D16ED00C03C22 /* AViewController.h */; };
+		529A68CB233DACF000C03C22 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 529A68C7233DACF000C03C22 /* .gitkeep */; };
+		529A68CC233DACF000C03C22 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529A68C9233DACF000C03C22 /* AViewController.m */; };
+		529A68CD233DACF000C03C22 /* AViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 529A68CA233DACF000C03C22 /* AViewController.h */; };
 		64E01FED486DFB715ECB6703384CB68B /* Pods-DCClassA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C532FA8C42E579BC4B7717069E95A976 /* Pods-DCClassA_Example-dummy.m */; };
 		86CAC5A39C6038E3EB48B67222A2119C /* Pods-DCClassA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CD39109BB90CF2B4F72DB893DD941A /* Pods-DCClassA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0888957394107CCDBACE701E7AAEAD /* DCClassA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E07D0FAA5F9D7062E2967717B2D417 /* DCClassA-dummy.m */; };
@@ -48,8 +49,9 @@
 		34F335220643E79CE55B2CF885819456 /* DCClassA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCClassA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B5DFF0B57DE9BD33D3171AA0392B78 /* Pods-DCClassA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCClassA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		433488972B81C3D36ADB065CF327C0FD /* DCClassA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCClassA.modulemap; sourceTree = "<group>"; };
-		529A68C1233D16ED00C03C22 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		529A68C2233D16ED00C03C22 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		529A68C7233DACF000C03C22 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		529A68C9233DACF000C03C22 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		529A68CA233DACF000C03C22 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		58B9001C0CAC45C2E8BA8D82D8B1B6A6 /* DCClassA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DCClassA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C7816B626696095A33927DD0364B626 /* Pods-DCClassA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCClassA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D9A16B10E6D3A13655C949A765E69DF /* DCClassA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCClassA-prefix.pch"; sourceTree = "<group>"; };
@@ -133,14 +135,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		529A68BF233D16ED00C03C22 /* Classes */ = {
+		529A68C6233DACF000C03C22 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				529A68C1233D16ED00C03C22 /* AViewController.m */,
-				529A68C2233D16ED00C03C22 /* AViewController.h */,
+				529A68C7233DACF000C03C22 /* .gitkeep */,
+				529A68C8233DACF000C03C22 /* AViewController */,
 			);
 			name = Classes;
 			path = DCClassA/Classes;
+			sourceTree = "<group>";
+		};
+		529A68C8233DACF000C03C22 /* AViewController */ = {
+			isa = PBXGroup;
+			children = (
+				529A68C9233DACF000C03C22 /* AViewController.m */,
+				529A68CA233DACF000C03C22 /* AViewController.h */,
+			);
+			path = AViewController;
 			sourceTree = "<group>";
 		};
 		6568268E36DB47D130428711191776F0 /* Pods-DCClassA_Tests */ = {
@@ -181,7 +192,7 @@
 		932266CC6C27A761E2EBB11C19AF0DE0 /* DCClassA */ = {
 			isa = PBXGroup;
 			children = (
-				529A68BF233D16ED00C03C22 /* Classes */,
+				529A68C6233DACF000C03C22 /* Classes */,
 				7457F051361E7C746FE2AE07DF06EB7E /* Pod */,
 				15B709C93F9EC4F432FC31850F6F7AD4 /* Support Files */,
 			);
@@ -257,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A84EBA32A749B0AB622FF27E707A2D /* DCClassA-umbrella.h in Headers */,
-				529A68C5233D16ED00C03C22 /* AViewController.h in Headers */,
+				529A68CD233DACF000C03C22 /* AViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529A68CB233DACF000C03C22 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529A68C4233D16ED00C03C22 /* AViewController.m in Sources */,
+				529A68CC233DACF000C03C22 /* AViewController.m in Sources */,
 				BC0888957394107CCDBACE701E7AAEAD /* DCClassA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
