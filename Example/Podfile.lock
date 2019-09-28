@@ -1,5 +1,5 @@
 PODS:
-  - DCClassA (0.1.2)
+  - DCClassA (0.1.3)
 
 DEPENDENCIES:
   - DCClassA (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCClassA: 7c2c4012a665484c413d60771ffa9ef5f21e5c71
+  DCClassA: 365a9569c45e173bf3955eb490a392325b12814b
 
 PODFILE CHECKSUM: 967e2584f04d0b54a930f9d3663b39e6be5eccaa
 

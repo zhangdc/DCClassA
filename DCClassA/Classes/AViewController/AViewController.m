@@ -19,10 +19,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    NSLog(@"加载了AViewController");
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"dismissViewController~~~");
     [self dismissViewControllerAnimated:true completion:nil];
 }
 
